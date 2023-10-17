@@ -1,0 +1,45 @@
+
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes custom-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes scroll {
+0% {
+transform:translateX(0);
+}
+100% {
+transform:translateX(-200%);
+}
+}
+
+@layer utilities {
+.animation-delay-2000
+{
+animation-delay:2s;
+}
+.animation-delay-4000
+{
+animation-delay:4s;
+}
+.carousel {
+animation:scroll 25s linear infinite;
+}
+.gradient-text {
+  background: linear-gradient(to bottom, #800080, #9400D3, #4B0082);
+  display: inline-block;
+  color: transparent;
+  background-clip: text;
+}
+
+
+}
