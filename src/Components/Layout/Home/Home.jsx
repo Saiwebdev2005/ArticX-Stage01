@@ -20,7 +20,7 @@ function Home() {
   const [user, loading] = useAuthState(auth);
   return (
     <>
-     <div className="container mx-auto max-w-full bg-gray-900 min-h-16 p-24 pb-56 flex flex-col md:flex-row">
+     <div className="container mx-auto max-w-full bg-black min-h-16 p-24 pb-56 flex flex-col md:flex-row">
   {/* left */}
   <Fade top distance="10%" duration={1500}>
     <div className="w-full md:w-1/2">
@@ -28,7 +28,7 @@ function Home() {
         <h1 className="text-2xl md:text-6xl text-left font-Montserrat gradient-text">
           Connect and Contribute with students
         </h1>
-        <p className="text-md text-left text-purple-500 max-w-2xl font-OpenSans">
+        <p className="text-md text-left text-purple-600 max-w-2xl font-OpenSans">
           To enhance student collaboration, implement a digital platform,
           conduct interactive sessions, promote peer learning and
           mentorship, integrate real-world projects into the curriculum,
@@ -36,12 +36,12 @@ function Home() {
         </p>
       </div>
       <div className="flex flex-row items-center justify-start ml-12 p-8 space-x-12">
-        <button className="px-6 py-3 bg-purple-600 text-xl shadow-md hover:shadow-gray-700 rounded-lg text-gray-900 hover:-translate-y-1 duration-300 border-2 border-purple-700">
+        <button className="px-6 py-3 bg-purple-600 text-xl shadow-md hover:shadow-gray-700 rounded-lg text-black hover:-translate-y-1 duration-300 border-2 border-purple-700">
           Explore more
         </button>
         {!user && (
           <Link to="/Login">
-            <button className="px-14 py-3 bg-gray-900 border-2 border-purple-600 text-xl shadow-md hover:shadow-purple-600 rounded-lg text-purple-500 hover:-translate-y-1 duration-300">
+            <button className="px-14 py-3 bg-gray-900 border-2 border-purple-800 text-xl shadow-md hover:shadow-purple-800 rounded-lg text-purple-800 hover:-translate-y-1 duration-300">
               Login
             </button>
           </Link>
@@ -50,9 +50,9 @@ function Home() {
     </div>
     {/* right */}
     <div className="w-full md:w-1/2 hidden md:block">
-      <div className="mockup-window border bg-purple-600 shadow-2xl shadow-purple-500">
-        <div className="flex justify-center px-4 py-16 bg-base-200 h-80 ">
-          <code className="max-w-lg text-lg text-purple-500">
+      <div className="mockup-window border bg-purple-800 shadow-2xl shadow-purple-800">
+        <div className="flex justify-center px-4 py-16 h-80 bg-black">
+          <code className="max-w-lg  text-lg text-purple-800">
             {text}
             <Cursor />
           </code>

@@ -12,14 +12,15 @@ useEffect(() => {
  setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
 },[])
 
-  const images = [
-    {image: "/src/assets/Autonomus-bot.svg", index:1, title:'Autonomous Bots'},
-    {image: "/src/assets/Age-detection.svg", index:2, title:'Gender and Age Detection'},
-    {image: "/src/assets/data-analytics.svg", index:3, title:'Dice Rolling Simulator'},
-  ]
+const images = [
+  {image: "/assets/Autonomus-bot.svg", index:1, title:'Autonomous Bots'},
+  {image: "/assets/Age-detection.svg", index:2, title:'Gender and Age Detection'},
+  {image: "/assets/data-analytics.svg", index:3, title:'Dice Rolling Simulator'},
+]
+
 
   return (
-    <div className="relative flex flex-col items-center justify-center bg-gray-900 text-gray-900 font-semibold max-w-full p-16 pb-36">
+    <div className="relative flex flex-col items-center justify-center bg-black text-black font-semibold max-w-full p-16 pb-36">
       <h1 className='text-5xl p-16 text-purple-600 font-Montserrat'>Top Projects of This Month</h1>
      <div className='flex flex-row max-w-6xl overflow-hidden bg-gray-900 rounded-lg'>
      

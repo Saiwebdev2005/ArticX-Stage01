@@ -13,7 +13,7 @@ function Navbar() {
   const navigate = useNavigate();
   return (
     <>
-      <div className="container max-w-full px-6 py-6 bg-gray-900 hidden md:block">
+      <div className="container max-w-full px-6 py-6 bg-black hidden md:block">
         <nav className="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto font-OpenSans">
           <div className="flex flex-col mb-4 md:mb-0">
             <Link to="/">
@@ -35,7 +35,7 @@ function Navbar() {
             
             <Link
               to="Dashboard"
-              className="hover:border-b-purple-500 hover:border-b-2 border-b-2 border-gray-900 duration-300"
+              className="hover:border-b-purple-500 hover:border-b-2 border-b-2 border-black duration-300"
               // testing
               
             >
@@ -44,14 +44,14 @@ function Navbar() {
             </div>
             <Link
               to="/Project"
-              className="hover:border-b-purple-500 hover:border-b-2 border-b-2 border-gray-900 duration-300"
+              className="hover:border-b-purple-500 hover:border-b-2 border-b-2 border-black duration-300"
               
             >
               Projects
             </Link>
             <Link
               to="Team"
-              className="hover:border-b-purple-500 hover:border-b-2 border-b-2 border-gray-900 duration-300"
+              className="hover:border-b-purple-500 hover:border-b-2 border-b-2 border-black duration-300"
               
             >
               Teams

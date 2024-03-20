@@ -5,20 +5,20 @@ import { Link } from 'react-router-dom';
 import Stats from '../../Stats';
 function HomeTreProject() {
   return (
-    <div className="container space-y-48 pt-12 w-full bg-purple-600 pb-12">
+    <div className="container space-y-48 pt-12 w-full bg-purple-800 pb-12">
   {/* Head */}
   <Fade top distance="10%" duration={1500}>
   <div className="flex flex-col max-w-6xl mx-auto h-screen">
     <div className="flex flex-col md:flex-row justify-between items-center">
-      <h1 className="text-5xl text-gray-900 font-Montserrat">Trending Projects</h1>
+      <h1 className="text-5xl text-black font-Montserrat">Trending Projects</h1>
       <Link to="Project">
-      <button className="btn bg-gray-900 text-purple-600 hover:opacity-80 duration-300 mt-4 md:mt-0">
+      <button className="btn bg-black text-purple-600 hover:opacity-80 duration-300 mt-4 md:mt-0">
         <span className="capitalize">view more</span>
       </button>
       </Link>
     </div>
     {/* Project showcase */}
-    <div className="flex flex-col items-center justify-center max-w-6xl space-y-10 bg-gray-900 mt-12 rounded-lg">
+    <div className="flex flex-col items-center justify-center max-w-6xl space-y-10 bg-black mt-12 rounded-lg">
       {/* project 1 */}
       <Card
         Head="Autonomous Bots"

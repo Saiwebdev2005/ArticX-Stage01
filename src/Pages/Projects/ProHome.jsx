@@ -3,7 +3,7 @@ import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
 function ProHome() {
   return (
-    <div className="container w-full bg-gray-900 text-purple-500 overflow-hidden mx-auto">
+    <div className="container w-full bg-black text-purple-600 overflow-hidden mx-auto">
       <div className="flex flex-row justify-between items-center max-w-6xl  mx-auto pt-32 pb-80 relative font-OpenSans">
         <Fade top distance="10%" duration={1500}>
           <div className="flex flex-col text-left space-y-16 max-w-2xl w-1/2">
@@ -20,12 +20,12 @@ function ProHome() {
             {/* button */}
             <div className="flex flex-row justify-start space-x-12">
               <Link to="ProjectUpload">
-                <button className="btn bg-purple-500 text-gray-900">
+                <button className="btn bg-purple-600 text-black hover:bg-purple-500">
                   <span>Upload Projects</span>
                 </button>
               </Link>
               <a href="#searchProject">
-                <button className="btn bg-gray-900 hover:opacity-60 hover:text-purple-500 text-purple-500 border border-purple-500">
+                <button className="btn bg-gray-900 hover:opacity-60 hover:text-purple-500 text-purple-600 border border-purple-600">
                   <span>Search Projects</span>
                 </button>
               </a>

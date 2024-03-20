@@ -31,7 +31,7 @@ function ProjectUpload() {
    
   if (file)
     return (
-      <div className="w-full bg-gray-900">
+      <div className="w-full bg-black">
         <div  className="flex flex-col justify-center items-center mx-auto max-w-6xl bg-purple-600 p-12 font-OpenSans">
           <ul className="m-12">
             {Array.from(file).map((file, idx) => (
@@ -92,7 +92,7 @@ function ProjectUpload() {
     );
 
   return (
-    <div className="bg-gray-900 w-full">
+    <div className="bg-black w-full">
       <div className="py-24 px-48">
         {!file && (
           <div
@@ -112,7 +112,7 @@ function ProjectUpload() {
               ref={inputRef}
             />
             <button
-              className="btn btn-primary"
+              className="btn bg-purple-600 text-white"
               onClick={() => inputRef.current.click()}
             >
               Select Files

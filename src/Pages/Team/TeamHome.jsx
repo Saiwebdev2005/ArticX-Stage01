@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 function TeamHome() {
   return (
-    <div className="w-full bg-gray-900">
+    <div className="w-full bg-black">
       <div className="flex flex-col justify-center items-center space-y-6 font-OpenSans max-w-6xl mx-auto">
         {/* Main Section */}
         <div className="flex flex-row justify-center items-center">
@@ -17,16 +17,16 @@ function TeamHome() {
             </p>
             <div>
               <Link to='/teamJoin'>
-              <button className="btn btn-primary px-12 absolute left-0 -bottom-20 bg-purple-600 text-gray-900 hover:bg-purple-500"><span>Join Team</span></button>
+              <button className="btn btn-primary px-12 absolute left-0 -bottom-20 bg-purple-600 text-black hover:bg-purple-500"><span>Join Team</span></button>
               </Link>
             </div>
           </div>
           <div className="mockup-phone border-primary">
             <div className="camera"></div>
             <div className="display relative">
-              <div className="artboard artboard-demo phone-1">
-                <div className="bg-purple-700 w-full flex justify-center p-6 absolute top-0">
-                  <h1 className="text-2xl font-Montserrat mt-4">Team ArticX</h1>
+              <div className="artboard artboard-demo phone-1 bg-black">
+                <div className="bg-purple-800 w-full flex justify-center p-6 absolute top-0">
+                  <h1 className="text-2xl font-Montserrat mt-4 text-white">Team ArticX</h1>
                 </div>
                 {/* Chat */}
                 <div className="chat chat-start font-OpenSans mt-14">
@@ -39,7 +39,7 @@ function TeamHome() {
                     Obi-Wan Kenobi
                     <time className="text-xs opacity-50">12:45</time>
                   </div>
-                  <div className="chat-bubble bg-purple-600 text-gray-900">Hey, I’m having some trouble with the API endpoint for user registration.</div>
+                  <div className="chat-bubble bg-purple-600 text-black">Hey, I’m having some trouble with the API endpoint for user registration.</div>
                   <div className="chat-footer opacity-50">Delivered</div>
                 </div>
                 <div className="chat chat-end font-OpenSans">
@@ -52,7 +52,7 @@ function TeamHome() {
                     Anakin
                     <time className="text-xs opacity-50">12:46</time>
                   </div>
-                  <div className="chat-bubble bg-gray-900 text-purple-600">That’s strange. Did you check the server logs for any exceptions?</div>
+                  <div className="chat-bubble bg-black border border-purple-600 text-purple-600">That’s strange. Did you check the server logs for any exceptions?</div>
                   <div className="chat-footer opacity-50">Seen at 12:46</div>
                 </div>
                 <div className="chat chat-start font-OpenSans">

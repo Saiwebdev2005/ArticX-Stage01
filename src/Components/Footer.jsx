@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className="footer footer-center p-10 bg-gray-900 text-base-content rounded mt-56 md:mt-0">
+    <footer className="footer footer-center p-10 bg-black text-base-content rounded mt-56 md:mt-0">
   <nav className="grid grid-flow-col gap-4 md:gap-8">
     <a className="hover:border-b-purple-500 hover:border-b-2 border-b-2 border-b-gray-900 cursor-pointer">Developer</a> 
     <a className="hover:border-b-purple-500 hover:border-b-2 border-b-2 border-b-gray-900 cursor-pointer">Contact</a> 

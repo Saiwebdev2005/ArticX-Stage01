@@ -52,10 +52,10 @@ function TeamChat(props) {
   });
   
   return (
-    <div className="flex flex-col h-screen p-6 px-40 bg-purple-600 text-gray-900 rounded-lg m-6 relative">
+    <div className="flex flex-col h-screen p-6 px-40 bg-purple-600 text-black rounded-lg m-6 relative">
       <div className="flex items-center justify-between mb-6 max-w-5xl mx-auto">
-        <h1 className="text-4xl text-gray-900 font-Montserrat ml-56">Team Chat</h1>
-        <h2 className="text-2xl ml-36 font-Montserrat text-purple-600 bg-gray-900 rounded-lg px-4 py-2">{room.toUpperCase()}</h2>
+        <h1 className="text-4xl text-black font-Montserrat ml-56">Team Chat</h1>
+        <h2 className="text-2xl ml-36 font-Montserrat text-purple-600 bg-black rounded-lg px-4 py-2">{room.toUpperCase()}</h2>
       </div>
       <div className="flex-grow overflow-auto mb-6 md:w-full sm:w-80 mx-auto justify-center items-center bg-purple-500 rounded-sm p-8 ">
         <div className="absolute right-[157px] bottom-12">

@@ -47,22 +47,22 @@ const Login = (props) => {
     }
   }
   return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8 bg-gray-900 ">
-  <div className="bg-gray-900 px-4 ">
-    <div className="flex flex-col md:flex-row max-w-full md:max-w-6xl mx-auto justify-center items-center bg-gray-900 p-4 md:p-32 space-x-0 md:space-x-32 rounded-xl border-4 border-purple-600">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 bg-black ">
+  <div className="bg-black px-4 ">
+    <div className="flex flex-col md:flex-row max-w-full md:max-w-6xl mx-auto justify-center items-center bg-black p-4 md:p-32 space-x-0 md:space-x-32 rounded-xl border-4 border-purple-600">
       {/* left */}
       <div className="flex flex-col justify-center items-center w-full md:w-1/2 space-y-6 border-2 rounded-lg p-4 py-4 pt-8 bg-purple-600">
         {/* header */}
         <h1 className="text-5xl m-4 font-semibold text-white">Sign Up</h1>
         {/* button */}
         <div className="flex flex-col justify-center space-y-6">
-          <button className="btn btn-primary bg-white text-gray-900 hover:opacity-70 hover:bg-gray-300" onClick={signInWithGoogle}>
+          <button className="btn btn-primary bg-white text-black hover:opacity-70 hover:bg-gray-300" onClick={signInWithGoogle}>
             <span>Sign Up with Google</span>
           </button>
         </div>
         {/* Line */}
         <div className="inline-flex items-center justify-center w-full">
-          <hr className="w-full md:w-64 h-px my-8 bg-purple-500 border-0 " />
+          <hr className="w-full md:w-64 h-px my-8 bg-purple-600 border-0 " />
           <span className="absolute px-3 font-medium text-gray-900 -translate-x-1/2 bg-purple-600 right-[830px] ">
             Or sign up with e-mail
           </span>

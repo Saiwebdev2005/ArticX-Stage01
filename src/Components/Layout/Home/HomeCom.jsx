@@ -12,13 +12,13 @@ function HomeCom() {
   ];
 
   return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-24 bg-gray-900 min-h-screen">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-24 bg-black min-h-screen">
   <Fade top distance="10%" duration={1500}>
     <div className="flex flex-col md:flex-row space-y-10 md:space-x-10 justify-center items-center mx-auto max-w-full md:max-w-6xl text-3xl font-OpenSans">
       {/* col 1 */}
       <div className="space-y-6">
         {categories.slice(0, 3).map((category, index) => (
-          <div key={index} className={`grid w-full md:w-32 h-full md:h-20 rounded ${category.color} place-content-center p-28 hover:-translate-y-2 duration-300 hover:bg-purple-700 shadow-lg shadow-purple-600 hover:shadow-purple-700 font-semibold`}>
+          <div key={index} className={`grid w-full md:w-32 h-full md:h-20 rounded ${category.color} place-content-center p-28 hover:-translate-y-2 duration-300 hover:bg-purple-700 shadow-lg shadow-purple-800 hover:shadow-purple-700 font-semibold`}>
             {category.name}
           </div>
         ))}
@@ -36,7 +36,7 @@ function HomeCom() {
         <h1 className="text-xl md:text-6xl text-purple-600 font-Montserrat gradient-text">
           Select Companion
         </h1>
-        <p className="text-sm md:text-lg ">
+        <p className="text-sm md:text-lg text-violet-600">
           Choose Your Companion emphasizes selecting the right partner for
           effective collaboration, skill complementation, and shared goal
           achievement

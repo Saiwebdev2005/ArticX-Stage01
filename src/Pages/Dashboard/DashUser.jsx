@@ -6,8 +6,8 @@ function DashUser() {
   const [user, loading] = useAuthState(auth);
 
   return (
-    <div className="h-fit w-full bg-gray-900">
-      <div className="flex flex-col max-w-6xl justify-center items-center mx-auto bg-gray-900 rounded-lg text-purple-600 border-4 border-purple-600">
+    <div className="h-fit w-full bg-black">
+      <div className="flex flex-col max-w-6xl justify-center items-center mx-auto bg-black rounded-lg text-purple-600 border-4 border-purple-600">
         {/* Profile with details */}
         <div className="flex flex-row justify-between items-center  space-x-12 w-full">
           <div className="flex flex-row items-center justify-center relative space-x-48">
@@ -29,7 +29,7 @@ function DashUser() {
           </div>
 
           <div class="flex justify-center mt-20 w-full px-4 text-center">
-            <div class="flex justify-center py-4 pt-8 mb-12 lg:pt-4 bg-purple-600 text-gray-900 rounded-full px-4">
+            <div class="flex justify-center py-4 pt-8 mb-12 lg:pt-4 bg-purple-600 text-black rounded-full px-4">
               <div class="mr-4 p-3 text-center">
                 <span class="text-blueGray-600 block text-xl font-bold uppercase tracking-wide cursor-pointer">
                   {" "}
@@ -68,7 +68,7 @@ function DashUser() {
           </div>
         </div> */}
         {/* Description */}
-        <div class="border-blueGray-200 mt-10 border-t py-20 text-center bg-gray-900 text-purple-600">
+        <div class="border-blueGray-200 mt-10 border-t py-20 text-center bg-black text-purple-600">
           <div class="flex flex-wrap justify-center">
             <div class="w-full px-4 lg:w-9/12">
               <p class="text-blueGray-700 mb-4 text-lg leading-relaxed">
@@ -92,14 +92,14 @@ function DashUser() {
               <table className="table">
                 {/* head */}
                 <thead>
-                  <tr className="text-xl font-Montserrat text-purple-600 bg-gray-900">
+                  <tr className="text-xl font-Montserrat text-purple-600 bg-black">
                     <th></th>
                     <th>Project Name</th>
                     <th>Description</th>
                     <th>Rating</th>
                   </tr>
                 </thead>
-                <tbody className="text-lg font-Montserrat text-gray-900">
+                <tbody className="text-lg font-Montserrat text-black">
                   {/* rows */}
                   {data.map((data) => {
                     return (
